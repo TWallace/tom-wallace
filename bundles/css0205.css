@@ -1,0 +1,244 @@
+/* Minification failed. Returning unminified contents.
+(173,9): run-time error CSS1036: Expected expression, found ';'
+ */
+body {
+	font-size: .85em;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+	color: #232323;
+	padding-top: 55px;
+	background-color: #f0f4f8;
+	background-image: url("../Content/images/bg_top.jpg"), url("../Content/images/bg_bottom.jpg");
+	background-position: left top, left bottom;
+	background-repeat: repeat-x, repeat-x;
+	background-attachment: fixed;
+}
+
+.container {
+	padding: 0 38px 0 0;
+}
+
+h2 {
+	font-size: 1.8em;
+	font-family: 'Noto Serif', serif;
+	color: #0865cd;
+}
+
+#aboutPic {
+	float: left;
+	-webkit-box-shadow: 3px 3px 9px #323232;
+	-webkit-box-shadow: 3px 3px 9px rgba(50, 50, 50, 0.51);
+	-moz-box-shadow: 3px 3px 9px #323232;
+	-moz-box-shadow: 3px 3px 9px rgba(50, 50, 50, 0.51);
+	box-shadow: 3px 3px 9px #323232;
+	box-shadow: 3px 3px 9px rgba(50, 50, 50, 0.51);
+	margin: 0 15px 15px 0;
+	border: 2px solid #3d5c7c;
+	border: 2px solid rgba(61, 92, 124, 0.7);
+	border-radius: 4px;
+}
+
+.page img.thumb {
+	float: left;
+	-webkit-box-shadow: 3px 3px 9px #323232;
+	-webkit-box-shadow: 3px 3px 9px rgba(50, 50, 50, 0.51);
+	-moz-box-shadow: 3px 3px 9px #323232;
+	-moz-box-shadow: 3px 3px 9px rgba(50, 50, 50, 0.51);
+	box-shadow: 3px 3px 9px #323232;
+	box-shadow: 3px 3px 9px rgba(50, 50, 50, 0.51);
+	margin: 0 15px 15px 0;
+	border: 2px solid #3d5c7c;
+	border: 2px solid rgba(61, 92, 124, 0.7);
+	border-radius: 4px;
+}
+
+/* NAVIGATION*/
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+	color: #CCC;
+}
+
+	.navbar-inverse .nav > li > a:hover, .navbar-inverse .nav > li.active > a {
+		color: #9fd7fe;
+		background: url("../Content/images/nav_bg_hover.png") repeat-x;
+	}
+/* END NAVIGATION */
+
+#portfolio .page, #resume article > section {
+	padding: 55px 0 0 0;
+}
+
+/* BACK TO TOP LINK */
+#back-top {
+	display: block;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+}
+
+	#back-top a {
+		width: 43px;
+		display: block;
+		text-align: center;
+		font: 11px/100% Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #bbb;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		transition: 1s;
+	}
+
+	#back-top a:hover {
+		color: #1e5799;
+	}
+	/* arrow icon (span tag) */
+	#back-top span {
+		width: 43px;
+		height: 43px;
+		display: block;
+		margin-bottom: 7px;
+		background: #e0eefc url(../Content/images/up-arrow.png) no-repeat center center;
+		/* rounded corners */
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		/* background color transition */
+		-webkit-transition: .7s;
+		transition: .7s;
+	}
+
+	#back-top a:hover span {
+		background-color: #1e5799;
+	}
+/* END BACK TO TOP LINK */
+
+/* RESUME */
+#resume {
+	padding: 20px 0 70px;
+}
+	#resume section {
+		border-bottom: 1px solid #555;
+		margin: 0 0 20px;
+	}
+	#resume section > section {
+		padding: 10px 0;
+		margin: 0 10px;
+	}
+	#resume section > section:last-child {
+		border-bottom: none;
+	}
+	#resume section h3 {
+		padding: 0 0 10px;
+		border-bottom: 2px solid #555;
+	}
+	#resume #resumeLinks {
+		position: absolute;
+		top: 5px;
+		left: 5px;
+	}
+	#resume header {
+		text-align: center;
+		position: relative;
+	}
+		#resume header h1 {
+			font-size: 1.8em;
+		}
+	#resume h3 {
+		text-align: center;
+	}
+	#resume .resume_date {
+		padding: 0 0 7px 0;
+	}
+	#resume .resume_title {
+		margin: 0;
+	}
+	#resume #skills {
+		list-style: none;
+	}
+		#resume #skills > li {
+			font-weight: bold;
+		}
+			#resume #skills > li > ul {
+				font-weight: normal;
+			}
+/* END RESUME */
+
+/* BUCK MODAL */
+#buckModal {
+	width: 90%;
+	max-width: 860px;
+	top: 5%;
+	left: 5%;
+	margin-left: 0;
+	height:;
+}
+	#buckModal .modal-body {
+		max-height: 90%;
+		position: relative;
+	}
+	#buckModal .prev, #buckModal .next {
+		position: absolute;
+		top: 48%;
+		z-index: 5;
+		display: block;
+		padding: 12px 5px 20px;
+		opacity: .1;
+		transition: opacity .8s;
+		background: #FFF;
+		border: 1px solid #00008b;
+		border-radius: 9px;
+		font-size: 4em;
+		font-weight: bold;
+	}
+		#buckModal .prev:hover, #buckModal .next:hover {
+			text-decoration: none;
+		}
+		#buckModal .prev {
+			left: 10px;
+		}
+		#buckModal .next {
+			right: 10px;
+		}
+
+/* SCREEN WIDTH LESS THAN 980PX */
+@media (max-width: 979px) {
+	body {
+		padding-top: 0;
+	}
+
+	#buckModal .prev, #buckModal .next {
+		padding: 5px 5px 10px;
+		top: 40%;
+		font-size: 2.8em;
+	}
+}
+/* END SCREEN WIDTH LESS THAN 980PX */
+
+/* SCREEN WIDTH LESS THAN 481PX */
+@media (max-width: 480px) {
+	#docLink {
+		position: inherit;
+	}
+
+	#buckModal .prev, #buckModal .next {
+		padding: 5px 5px 10px;
+		top: 35%;
+		font-size: 1.8em;
+	}
+}
+/* END SCREEN WIDTH LESS THAN 481PX */
+
+/* CONTACT FORM */
+#contactStatus {
+	display: none;
+}
+.field-validation-error {
+	color: #A00;
+}
+.validation-summary-valid {
+	display: none;
+}
+/* END CONTACT FORM */

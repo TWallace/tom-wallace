@@ -1,0 +1,46 @@
+﻿* {
+	margin:0;
+	padding:0;}
+img {
+	border:none;}
+a:hover {
+	cursor:pointer;}
+
+body {
+	color:#333;
+	background:#FFF;}
+p, li, td, input, select, textarea, h1, h2, h3, h4, h5, h6, span {
+	font-size:13px;
+	font-family:Arial, Helvetica, Sans-Serif;}
+p {
+	padding:8px 0;}
+a {
+	text-decoration:none;
+	color:#F60;}
+h1 {
+	font-size:22px;
+	font-weight:normal;
+	padding:0 0 5px 0;}
+.hidden {
+	display:none;}
+.clear {
+	clear:both;
+	font-size:0;
+	height:0;}
+
+#template_nav {
+	height:33px;}
+#template_nav_left {
+	width:20px;
+	float:left;}
+#template_nav_right {
+	width:20px;
+	float:left;}
+
+.gallery_li {
+	position:relative;
+	z-index:1;}
+.gallery_main_img {
+	position:absolute;
+	top:0;
+	left:0;}

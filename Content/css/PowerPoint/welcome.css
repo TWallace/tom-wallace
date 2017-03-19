@@ -1,0 +1,48 @@
+﻿html, body {
+	overflow:hidden;}
+.scrollable {
+	/* required settings */
+	position:relative;
+	overflow:hidden;
+	width: 520px;
+	height:423px;}
+.page {
+	position:relative;}
+.page a {
+	position:relative;
+	top:33px;
+	left:0;
+	display:block;
+	width:520px;
+	height:390px;}
+.like_bar {
+	width:495px;
+	height:29px;
+	position:absolute;
+	top:4px;
+	left:0;}
+#welcome_text {
+	width:520px;
+	color:#FFF;}
+h3 {
+	padding:20px 25px 7px;
+	font-weight:normal;
+	font-size:25px;
+	font-family:Lato, Arial, Helvetica, Sans-Serif;}
+p {
+	padding:5px 25px;
+	font-size:14px;
+	line-height:20px;
+	font-family:Lato, Arial, Helvetica, Sans-Serif;}
+/*.cloned {
+	display:none;}*/
+.welcome_nav_bar {
+	margin:-5px 0 0 0;}
+.welcome_nav_bar li {
+	list-style:none;
+	float:left;
+	width:85px;
+	height:107px;
+	margin:0 2px 0 0;}
+.welcome_nav_bar li.last {
+	margin:0;}
